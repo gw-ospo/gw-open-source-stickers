@@ -73,13 +73,11 @@ function draw() {
     contribs[i].moveImg();
     contribs[i].checkBoundary();
   }
-  filter(displaceColors);
-  pop();
+  //filter(displaceColors);
+  //pop();
   push();
-  textSize(width/10);
-  text('GW OSCON', 50, width/10);
   textSize(width/15);
-  text('2025', 55, width/10 + width/15);
+  text('Open Source Stickers', 50, width/10);
   pop();
   frameRate(40);
 }
