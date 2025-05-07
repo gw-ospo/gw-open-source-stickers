@@ -73,8 +73,8 @@ function draw() {
     contribs[i].moveImg();
     contribs[i].checkBoundary();
   }
-  filter(displaceColors);
-  pop();
+  //filter(displaceColors);
+  //pop();
   push();
   textSize(width/15);
   text('Open Source Stickers', 50, width/10);
