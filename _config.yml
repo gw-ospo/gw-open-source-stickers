@@ -23,7 +23,7 @@ baseurl: "/gw-open-source-stickers" # the subpath of your site, e.g. /blog
 url: "https://gw-ospo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 defaults:
   - scope:
-      path: "stickers"
+      path: "stickers/gw-stickers/gw-oscon-2025/OSCON-2025-student-stickers"
     values:
       image: true
 sass:
